@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container  my-5 ">
+            <h1 class="mb-4">Calculate your Rewards</h1>
+            <div class="my-2">
+                <label>Vendor/Bill</label>
+                <input type="text" placeholder="Enter a number" id="vendor">
+            </div>
+            <div class="my-2">
+                <label>Media/Ad Spend </label>
+                <input type="text" placeholder="Enter a number" id="media">
+            </div>
+            <div class="my-2">
+                <label>Crop.Spend</label>
+                <input type="text" placeholder="Enter a number" id="crop">
+            </div>
+            <div class="my-2">
+                <label>Team Project</label>
+                <input type="text" placeholder="Enter a number" id="team">
+            </div>
+        </div>
+        <h3 class=" my-3">Compare your Rewards</h3>
+        <div class="" id="buttons">
+            <button class="btn">Brex</button>
+            <button class="btn mx-3">Stripe</button>
+            <button class="btn">Amex</button>
+        </div>
+        <p class="text-danger d-none mt-3" id="nanCheck">please Enter only numbers</p>
+        <div class="my-3">
+            <div class="d-flex ">
+                <img src="images/finance.png" class="" alt="">
+                <div class="d-flex flex-column mt-5 ml-5  m-auto">
+                    <div class="d-flex ">
+                        <label class="">ulimited Rewards</label>
+                        <div class="prog">
+                            <div class="progressbar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                        <label class="h6  ">LIFETIME REWARDS</label>
+                        <div class="prog">
+                            <div class="progressbar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class=" my-3">Compare your Rewards</h3>
+        <div class="">
+            <button class="btn">Brex</button>
+            <button class="btn mx-3">Stripe</button>
+            <button class="btn">Amex</button>
+        </div>
+        <div class="d-none my-5 " id="status">
+            <h6><span class="" id="companyName"></span> Business Card <span id="profits"></span></h6>
+            <h5>unlimited Rewards <span id="unlimited"></span></h5>
+            <h4>LIFETIME REWARDS <span id="lifeTime"></span></h4>
+        </div>
+        <div class="d-flex d-none " id="rewards">
+            <img src="images/finance.png" class="" alt="">
+            <div class="d-flex flex-column mt-5 ml-5  m-auto">
+                <div class="d-flex ">
+                    <label class=""><span id="companyName2">
+                    </span> Business Card <span id="profits"></span></label>
+                    <div class="prog w-25">
+                        <div class="progressbar">
+                        </div>
+                    </div>
+                    <p id="companyProfits"></p>
+                </div>
+                <div class="d-flex mt-3">
+                    <label class="h6">unlimited Rewards <span id="unlimited"></span></label>
+                    <div class="prog w-50">
+                        <div class="progressbar">
+                        </div>
+                    </div>
+                    <p id="unlimitedProfits"></p>
+                </div>
+                <div class="d-flex mt-3 w-100">
+                    <label class="h6">LIFETIME REWARDS <span id="lifeTime"></span></label>
+                    <div class="prog">
+                        <div class="progressbar">
+                        </div>
+                    </div>
+                    <p id="lifeTimeRewards"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
