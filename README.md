@@ -5,4 +5,4 @@
 ###### a simple HTML page decorated with CSS and all the logic was created with native JavaScript where I used DOM to manipulate The displayed content.
 
 #### Live Demo
-#####  https://hossam-elkady.github.io/financial-calculator-widget/
+#####  https://finan-calc.netlify.app/
