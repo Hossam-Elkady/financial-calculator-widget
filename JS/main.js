@@ -28,6 +28,7 @@ for (let i = 0; i < inputs.length; i++) {
                 nanCheck.classList.remove("d-none");
                 state.classList.add("d-none");
             } else {
+                nanCheck.classList.add("d-none")                
                 let unlimitedOffer = sum * 1.1;
                 let lifeTimeOffer = sum * 1.2;
                 unlimited.innerHTML = `$${unlimitedOffer}`;
